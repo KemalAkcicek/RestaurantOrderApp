@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="anaPencere" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.KazancController">
+	<children>
+		<Label layoutX="143.0" layoutY="39.0" prefHeight="101.0" prefWidth="265.0" text="Günlük Kazancınız">
+			<font>
+				<Font size="32.0" />
+			</font>
+		</Label>
+		<TextField fx:id="kazancText" layoutX="165.0" layoutY="140.0" prefHeight="75.0" prefWidth="210.0" />
+	</children>
+</Pane>

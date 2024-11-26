@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0"
+	prefWidth="594.0" style="-fx-background-color: #ADD8E6;"
+	xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label layoutX="-4.0" layoutY="-1.0" prefHeight="58.0"
+			prefWidth="603.0"
+			text="                                       Sipariş Ekranı"
+			textFill="#08161b">
+			<font>
+				<Font name="Microsoft Sans Serif" size="22.0" />
+			</font>
+		</Label>
+		<VBox layoutX="6.0" layoutY="47.0" prefHeight="231.0"
+			prefWidth="144.0" style="-fx-background-color: #F5F5DC;">
+			<children>
+				<Label prefHeight="51.0" prefWidth="110.0"
+					text="    Başlangıçlar">
+					<font>
+						<Font size="16.0" />
+					</font>
+				</Label>
+				<Pane prefHeight="214.0" prefWidth="144.0">
+					<children>
+						<Label fx:id="tarator" layoutY="1.0" prefHeight="34.0"
+							prefWidth="99.0" text="Kabak Tarator">
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="89.0" layoutY="6.0"
+							onAction="#ekleButtonu" prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutY="35.0" prefHeight="32.0" prefWidth="81.0"
+							text="Humus">
+							<font>
+								<Font size="16.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="89.0" layoutY="39.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutY="67.0" prefHeight="34.0" prefWidth="61.0"
+							text="Volovan">
+							<font>
+								<Font size="16.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="89.0" layoutY="72.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="-1.0" layoutY="102.0" prefHeight="42.0"
+							prefWidth="89.0" text="Paçanga Böreği" />
+						<JFXButton layoutX="89.0" layoutY="111.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutY="144.0" prefHeight="31.0" prefWidth="71.0"
+							text="Haydari">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="89.0" layoutY="147.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+					</children>
+				</Pane>
+			</children>
+		</VBox>
+		<VBox layoutX="156.0" layoutY="48.0" prefHeight="231.0"
+			prefWidth="144.0" style="-fx-background-color: #F5F5DC;">
+			<children>
+				<Label prefHeight="32.0" prefWidth="130.0" text="   Ana Yemek">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+				<Pane prefHeight="200.0" prefWidth="200.0">
+					<children>
+						<Label layoutY="6.0" prefHeight="25.0" prefWidth="81.0"
+							text="Tas Kebabı">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="82.0" layoutY="6.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutY="42.0" prefHeight="31.0" prefWidth="81.0"
+							text="İzmir Köfte">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="82.0" layoutY="45.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="1.0" layoutY="82.0" prefHeight="42.0"
+							prefWidth="81.0" text="Patates Oturtma">
+							<font>
+								<Font size="11.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="82.0" layoutY="91.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutY="135.0" prefHeight="34.0" prefWidth="81.0"
+							text="Tepsi Kebabı" />
+						<JFXButton layoutX="82.0" layoutY="140.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+					</children>
+				</Pane>
+			</children>
+		</VBox>
+		<VBox layoutX="307.0" layoutY="49.0" prefHeight="231.0"
+			prefWidth="137.0" style="-fx-background-color: #F5F5DC;">
+			<children>
+				<Label prefHeight="31.0" prefWidth="120.0" text="   Tatlılar">
+					<font>
+						<Font size="14.0" />
+					</font>
+				</Label>
+				<Pane prefHeight="200.0" prefWidth="200.0">
+					<children>
+						<Label layoutY="-7.0" prefHeight="49.0" prefWidth="71.0"
+							text="Sütlaç">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="77.0" layoutY="5.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutY="42.0" prefHeight="42.0" prefWidth="71.0"
+							text="Kazandibi">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="77.0" layoutY="51.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="1.0" layoutY="83.0" prefHeight="42.0"
+							prefWidth="61.0" text="Baklava">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="78.0" layoutY="92.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="1.0" layoutY="128.0" prefHeight="31.0"
+							prefWidth="61.0" text="Ekler">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="77.0" layoutY="131.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+					</children>
+				</Pane>
+			</children>
+		</VBox>
+		<VBox layoutX="449.0" layoutY="49.0" prefHeight="231.0"
+			prefWidth="137.0" style="-fx-background-color: #F5F5DC;">
+			<children>
+				<Label prefHeight="34.0" prefWidth="128.0"
+					text="     İçecekler">
+					<font>
+						<Font size="15.0" />
+					</font>
+				</Label>
+				<Pane prefHeight="200.0" prefWidth="200.0">
+					<children>
+						<Label layoutX="1.0" layoutY="14.0" prefHeight="25.0"
+							prefWidth="47.0" text="Su">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="77.0" layoutY="14.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="-2.0" layoutY="56.0" text="Coca Cola">
+							<font>
+								<Font size="14.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="77.0" layoutY="53.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="1.0" layoutY="91.0" prefHeight="25.0"
+							prefWidth="89.0" text="Lipton Ice Tea" />
+						<JFXButton layoutX="77.0" layoutY="91.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+						<Label layoutX="2.0" layoutY="134.0" prefHeight="25.0"
+							prefWidth="71.0" text="Limonata">
+							<font>
+								<Font size="15.0" />
+							</font>
+						</Label>
+						<JFXButton layoutX="77.0" layoutY="134.0"
+							prefHeight="25.0" prefWidth="47.0"
+							style="-fx-background-color: #90EE90;" text="Ekle" />
+					</children>
+				</Pane>
+			</children>
+		</VBox>
+		<JFXTextArea layoutX="-2.0" layoutY="306.0"
+			prefHeight="98.0" prefWidth="594.0"
+			style="-fx-background-color: #98FB98;" />
+		<Label layoutX="4.0" layoutY="280.0" prefHeight="25.0"
+			prefWidth="158.0" text="Siparişler">
+			<font>
+				<Font size="14.0" />
+			</font>
+		</Label>
+	</children>
+</Pane>
